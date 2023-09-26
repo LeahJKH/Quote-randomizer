@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div id="center">
+      <div id="choose-topic">
+        <div class="topic">
+          <label for="code">Coding</label>
+          <input type="radio" name="motivation" id="code" onclick="codeify(1)" />
+        </div>
+        <div class="topic">
+          <label for="miku">Miku</label>
+          <input type="radio" name="motivation" id="miku" onclick="codeify(2)" />
+        </div>
+        <div class="topic">
+          <label for="general">General</label>
+          <input type="radio" name="motivation" id="general" onclick="codeify(3)" />
+        </div>
+      </div>
+      <div id="mainContent">
+        <h1 id="pagetop"></h1>
+        <button id="adder" id="btn-col1">add</button>
+        <button id="remover" id="btn-col2">remove</button>
+      </div>
+
+      <div id="textadder"></div>
+    </div>
+  </body>
+</html>

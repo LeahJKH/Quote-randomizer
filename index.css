@@ -1,0 +1,38 @@
+#textadder {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 0 0 20px black;
+  margin: 15px 0;
+  padding: 10px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+}
+p {
+  font-size: 20px;
+}
+body {
+  color: green;
+  margin: 0 auto;
+  background-color: rgb(21, 21, 21);
+}
+#center {
+  width: fit-content;
+  margin: auto;
+}
+
+#choose-topic {
+  display: flex;
+  flex-direction: row;
+}
+.topic {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px 20px;
+}
