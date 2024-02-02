@@ -1,2 +1,2 @@
 # jsoppgave.pat1
-now with ideas
+Need something too pick u up try this

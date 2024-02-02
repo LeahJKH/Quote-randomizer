@@ -96,5 +96,9 @@ function codeify(num) {
  // btnCol1.style.backgroundColor = "yellow"; i wanted to do this but could not figure out how
 } else {
 bodyChange.style.color = `red`
+motto = [];
+motto = [
+  `ERROR`,
+];
 //btnCol.style.background = `red` i wanted to do this but could not figure out how
 }};
